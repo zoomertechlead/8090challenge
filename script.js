@@ -78,7 +78,7 @@ async function fetchDataAndPlot() {
                 hoverinfo: 'text',
                 marker: {
                     size: 5,
-                    color: z_expected_output, // Color by expected_output (which is also Z-axis)
+                    color: duration, // Color by expected_output (which is also Z-axis)
                     colorscale: 'Viridis',
                     // Only show color scale for the first trace to avoid multiple color bars
                     // Plotly usually handles this well if colorscale and data range are consistent
